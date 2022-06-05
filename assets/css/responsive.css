@@ -19,4 +19,9 @@
     .modal-competition-inner {padding: 32px;}
 
     footer, .second-footer {text-align: center;}
+
+    .centered-responsive, .centered-responsive .btn-circular {
+        margin: 0 auto;
+        display: block;
+    }
 }
