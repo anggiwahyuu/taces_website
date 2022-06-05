@@ -16,3 +16,37 @@ $(".competition-card").click(function () {
 $(".modal-competition-container").click(function () {
     $(this).removeClass('modal-show');
 });
+
+$(document).ready(function () {
+    $(window).scroll(function () {
+        // console.log($('.header-left-side').height());
+        if ($(window).scrollTop() > 75) {
+            $(".navbar").removeClass('navbar-transparent');
+        } else {
+            $(".navbar").addClass('navbar-transparent');
+        }
+    });
+
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $(".navbar-collapse").hasClass("show");
+        if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+            $(".navbar-toggler").click();
+        }
+    });
+});
+
+// $(document).ready(function () {
+//     $(window).scroll(function () {
+//         if ($(window).scrollTop() > $(window).height()) {
+//             $(".navbar").css({
+//                 "background-color": "transparent !important"
+//             });
+//         } else {
+//             $(".navbar").css({
+//                 "background-color": "white !important"
+//             });
+//         }
+
+//     })
+// });
