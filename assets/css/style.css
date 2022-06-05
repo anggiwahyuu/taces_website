@@ -45,6 +45,8 @@
 .fs-64 {font-size: 64px;}
 
 /* Button */
+.label-btn {cursor: default !important;}
+
 .btn-circular {
     border-color: transparent;
     border-radius: 118px;
@@ -56,6 +58,24 @@
 .btn-cyan {
     background-color: #3EADC3; 
     color: white;
+}
+
+.btn-header {
+    background: transparent;
+    font-weight: bold;
+    padding: 7px 24px;
+}
+
+.btn-header-red {
+    border: 1px solid #DC1E1E;
+    color: #DC1E1E;
+    box-shadow: 5px 5px #DC1E1E;
+}
+
+.btn-header-cyan {
+    border: 1px solid #3EADC3;
+    color: #3EADC3;
+    box-shadow: 5px 5px #3EADC3;
 }
 
 /* Misc */
