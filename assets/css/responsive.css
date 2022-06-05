@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1024px) {
+    .container, .competition-card {width: 100%;}
+    .responsive-none {display: none;}
+    .section-title {text-align: center;}
+
+    .text-header-responsive {font-size: 32px;}
+    .text-gap-responsive {padding: 21px;}
+
+    .header-left-side {text-align: center;}
+
+    .webinar-left-side {order: 2;}
+    .webinar-right-side {order: 1; height: 234px;}
+
+    .timeline-responsive {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .modal-competition-inner {padding: 32px;}
+
+    footer, .second-footer {text-align: center;}
+}
