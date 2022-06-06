@@ -18,25 +18,30 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-transparent fixed-top navbar-expand-lg bg-body">
-        <div class="container-fluid">
-            <a class="navbar-brand me-5" href="index.html"><img src="assets/images/logo_taces.png"
-                    style="width: 104px; height: 62px;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="assets/images/hamburger_menu.svg" alt="">
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active me-4" aria-current="page" href="#about">About</a>
-                    <a class="nav-link active me-4" aria-current="page" href="#competition">Competition</a>
-                    <a class="nav-link active me-4" aria-current="page" href="#webinar">Webinars</a>
-                    <a class="nav-link active me-4" aria-current="page" href="#timeline">Timelines</a>
-                    <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+	<div class="navigasi-custom navigasi-custom-transparent fs-12">
+        <div class="navigasi-custom-inner">
+            <div class="navcustom-left-side">
+                <div class="nav-component"><a href=""><img src="assets/images/logo_taces.png" alt="Taces" class="nav-logo"></a></div>
+            </div>
+
+            <div class="navcustom-right-side-responsive">
+                <img src="assets/images/hamburger_menu.svg" alt="" class="burger-menu">
+            </div>
+
+            <div class="navcustom-right-side">
+                <div class="navcustom-responsive-right-menu">
+                    <div class="navcustom-responsive-right-menu-inner">
+                        <div class="nav-component"><a href="#">About</a></div>
+                        <div class="nav-component"><a href="#">Competition</a></div>
+                        <div class="nav-component"><a href="#">Webinars</a></div>
+						<div class="nav-component"><a href="#">Timelines</a></div>
+						<div class="nav-component"><a href="#">Contacts</a></div>
+                    </div>
                 </div>
+                <div class="navcustom-responsive-left-dim"></div>
             </div>
         </div>
-    </nav>
+    </div>
 
 	<!-- Header Page -->
 	<div class="container-fluid">
@@ -542,8 +547,8 @@
 	<footer class="pt-5">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-3">
-					<img src="assets/images/logo_taces.png" class="img-fluid logo-footer">
+				<div class="col-md-3 mb-4">
+					<center><img src="assets/images/logo_taces.png" class="img-fluid logo-footer"></center>
 				</div>
 				<div class="col-md-3">
 					<h5 class="fw-bold">Social Media</h5>
@@ -707,3 +712,4 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/navigation.js"></script>

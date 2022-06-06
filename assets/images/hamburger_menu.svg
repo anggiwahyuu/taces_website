@@ -1,11 +1,11 @@
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.400146" y="0.399994" width="8.4" height="8.4" fill="#222222"/>
-<rect x="11.8" y="0.399994" width="8.4" height="8.4" fill="#222222"/>
-<rect x="23.2" y="0.399994" width="8.4" height="8.4" fill="#222222"/>
-<rect x="0.400146" y="11.8" width="8.4" height="8.4" fill="#222222"/>
-<rect x="0.400146" y="23.2" width="8.4" height="8.4" fill="#222222"/>
-<rect x="11.8" y="11.8" width="8.4" height="8.4" fill="#222222"/>
-<rect x="11.8" y="23.2" width="8.4" height="8.4" fill="#DC1E1E"/>
-<rect x="23.2" y="11.8" width="8.4" height="8.4" fill="#DC1E1E"/>
-<rect x="23.2" y="23.2" width="8.4" height="8.4" fill="#DC1E1E"/>
+<rect x="0.399902" y="0.399902" width="8.4" height="8.4" fill="#222222"/>
+<rect x="11.7998" y="0.399902" width="8.4" height="8.4" fill="#222222"/>
+<rect x="23.1997" y="0.399902" width="8.4" height="8.4" fill="#222222"/>
+<rect x="0.399902" y="11.7998" width="8.4" height="8.4" fill="#222222"/>
+<rect x="0.399902" y="23.1997" width="8.4" height="8.4" fill="#222222"/>
+<rect x="11.7998" y="11.7998" width="8.4" height="8.4" fill="#222222"/>
+<rect x="11.7998" y="23.1997" width="8.4" height="8.4" fill="#DC1E1E"/>
+<rect x="23.1997" y="11.7998" width="8.4" height="8.4" fill="#DC1E1E"/>
+<rect x="23.1997" y="23.1997" width="8.4" height="8.4" fill="#DC1E1E"/>
 </svg>

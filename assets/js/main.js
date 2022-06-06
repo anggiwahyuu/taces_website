@@ -20,9 +20,9 @@ $(".modal-competition-container").click(function () {
 $(document).ready(function () {
     $(window).scroll(function () {
         if ($(window).scrollTop() > 75) {
-            $(".navbar").removeClass('navbar-transparent');
+            $(".navigasi-custom").removeClass('navigasi-custom-transparent');
         } else {
-            $(".navbar").addClass('navbar-transparent');
+            $(".navigasi-custom").addClass('navigasi-custom-transparent');
         }
     });
 

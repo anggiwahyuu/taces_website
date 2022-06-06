@@ -2,6 +2,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+a, a:hover {text-decoration: none;}
+
+/* === Misc === */
 /* Fonts */
 @font-face {
     font-family: coolvetica;
@@ -99,7 +102,7 @@
     background: rgba(62, 173, 195, 1);
 }
 
-/* Misc */
+/* Height */
 .hg-100 {height: 100vh;}
 
 /* Card */
@@ -119,25 +122,13 @@
     transition: .3s;
 }
 
-/* Main Styling */
+/* === Main Styling === */
 .bg-header {background: url('../images/hero_image-red.png');}
 .bg-webinar {
     background: url('../images/webinars-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-.navbar {
-    transition: .3s; 
-    background: rgba(246, 246, 246, 1) !important;
-    z-index: 1;
-}
-
-.navbar-transparent {
-    background-color: transparent !important; 
-    padding: 20px;
-    transition: .3s;
 }
 
 .section-title {
@@ -168,8 +159,6 @@
     transform: translate(-50%, -50%);
 }
 
-.modal-show {display: block !important;}
-
 /* Timeline */
 .timeline {width: 100px;}
 .timeline-group {display: none;}
@@ -183,6 +172,8 @@
 .show-timeline {display: flex !important;}
 
 /* Footer */
+.logo-footer {width: 150px;}
+
 footer, .second-footer {background: rgba(246, 246, 246, 1);}
 
 footer .container img {
@@ -191,3 +182,46 @@ footer .container img {
 }
 
 footer .container div {margin-right: 5%;}
+
+/* === Navigasi Custom === */
+.nav-logo {width: 54px; height: 42px;}
+.navigasi-custom-transparent {background-color: transparent !important; padding: 10px;}
+
+.navigasi-custom {
+    background-color: #F4F4F4;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    transition: .3s;
+}
+
+.navigasi-custom-inner {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px;
+}
+
+.nav-component a {color: black;}
+.nav-component { display: inline-block; }
+
+.navcustom-right-side .nav-component {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.navcustom-right-side-responsive {
+    display: none;
+    width: 50%;
+}
+
+.burger-menu {direction: rtl; cursor: pointer;}
+
+.burger-line {
+    background-color: #12131A;
+    margin-top: 5px;
+    height: 3px;
+}
+
+.modal-show {display: block !important;}

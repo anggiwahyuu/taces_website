@@ -1,4 +1,9 @@
 @media only screen and (max-width: 1024px) {
+    .btn-header {
+        margin: 0 auto;
+        margin-top: 32px;
+        display: block;
+    }
     .container, .competition-card {width: 100%;}
     .responsive-none {display: none;}
     .section-title {text-align: center;}
@@ -25,8 +30,52 @@
         display: block;
     }
 
-    .logo-footer {width: 200px;}
-    .navbar-transparent {
-        padding: 15px;
+    .logo-footer {width: 100px;}
+
+    /* === Nav Section === */
+    .burger-menu {float: right;}
+    .navigasi-custom {font-size: 16px;}
+    .navcustom-left-side {width: 50%;}
+
+    .navcustom-right-side-responsive {
+        display: block; 
+        width: 50%;
     }
+
+    .navcustom-right-side {
+        position: absolute;
+        display: none;
+        direction: rtl;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .navcustom-right-side .nav-component {display: block;}
+    .navcustom-responsive-right-menu-inner > .nav-component {margin-top: 20px; margin-left: 0;}
+
+    .navcustom-responsive-right-menu-inner {
+        margin: 0 auto;
+        text-align: center;
+        display: none;
+    }
+
+    .navcustom-responsive-right-menu {
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        width: 0%;
+        height: 100vh;
+        transition: .5s;
+    }
+
+    .navcustom-responsive-left-dim {
+        background-color: rgba(0,0,0,0.5);
+        width: 0%;
+        height: 100vh;
+        transition: .5s;
+    }
+
+    .btn-nav {margin-top: 40px !important;}
 }
