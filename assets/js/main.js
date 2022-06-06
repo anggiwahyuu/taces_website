@@ -19,7 +19,6 @@ $(".modal-competition-container").click(function () {
 
 $(document).ready(function () {
     $(window).scroll(function () {
-        // console.log($('.header-left-side').height());
         if ($(window).scrollTop() > 75) {
             $(".navbar").removeClass('navbar-transparent');
         } else {
@@ -35,18 +34,3 @@ $(document).ready(function () {
         }
     });
 });
-
-// $(document).ready(function () {
-//     $(window).scroll(function () {
-//         if ($(window).scrollTop() > $(window).height()) {
-//             $(".navbar").css({
-//                 "background-color": "transparent !important"
-//             });
-//         } else {
-//             $(".navbar").css({
-//                 "background-color": "white !important"
-//             });
-//         }
-
-//     })
-// });
