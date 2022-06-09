@@ -122,6 +122,10 @@ a, a:hover {text-decoration: none;}
     transition: .3s;
 }
 
+.competition-icon img {
+    width: 22%;
+}
+
 /* === Main Styling === */
 .bg-header {background: url('../images/hero_image-red.png');}
 .bg-webinar {
@@ -182,6 +186,10 @@ footer .container img {
 }
 
 footer .container div {margin-right: 5%;}
+
+.footer-icon {
+    width: 8%;
+}
 
 /* === Navigasi Custom === */
 .nav-logo {width: 54px; height: 42px;}
