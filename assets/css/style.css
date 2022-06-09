@@ -187,9 +187,9 @@ footer .container img {
 
 footer .container div {margin-right: 5%;}
 
-.footer-icon {
-    width: 8%;
-}
+.footer-icon { width: 8%; }
+
+.sosmed-text { line-height: 40px; }
 
 /* === Navigasi Custom === */
 .nav-logo {width: 54px; height: 42px;}
