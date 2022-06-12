@@ -13,8 +13,11 @@
 
     .header-left-side {text-align: center;}
 
-    .webinar-left-side {order: 2;}
-    .webinar-right-side {order: 1;}
+    .webinar-left-side {order: 1;}
+    .webinar-right-side {
+        order: 2;
+        padding-top: 0;
+    }
 
     .timeline-responsive {
         margin: 0 auto;
