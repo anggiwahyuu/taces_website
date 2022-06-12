@@ -17,6 +17,7 @@
     .webinar-right-side {
         order: 2;
         padding-top: 0;
+        margin-top: 15%;
     }
 
     .timeline-responsive {
@@ -43,8 +44,12 @@
     }
 
     .text-webinar-responsive {
-        width: 65%;
+        width: 70%;
         margin: auto;
+    }
+
+    .text-webinar-left {
+        text-align: center;
     }
 
     .logo-footer {width: 100px;}
