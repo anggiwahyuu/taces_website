@@ -172,7 +172,8 @@ a, a:hover {text-decoration: none;}
 }
 
 .webinar-right-side {
-    padding-top: 22%;
+    margin: auto;
+    transform: translate(0, 35%);
 }
 
 /* Timeline */
