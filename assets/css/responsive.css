@@ -14,7 +14,7 @@
     .header-left-side {text-align: center;}
 
     .webinar-left-side {order: 2;}
-    .webinar-right-side {order: 1; height: 234px;}
+    .webinar-right-side {order: 1;}
 
     .timeline-responsive {
         margin: 0 auto;
@@ -33,6 +33,15 @@
     .centered-responsive, .centered-responsive .btn-circular {
         margin: 0 auto;
         display: block;
+    }
+
+    .picture-speaker {
+        margin-bottom: 5%;
+    }
+
+    .text-webinar-responsive {
+        width: 65%;
+        margin: auto;
     }
 
     .logo-footer {width: 100px;}

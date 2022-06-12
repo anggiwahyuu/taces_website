@@ -128,12 +128,6 @@ a, a:hover {text-decoration: none;}
 
 /* === Main Styling === */
 .bg-header {background: url('../images/hero_image-red.png');}
-.bg-webinar {
-    background: url('../images/webinars-img.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 
 .section-title {
     font-family: 'coolvetica';
@@ -166,6 +160,17 @@ a, a:hover {text-decoration: none;}
 .embed-video {
     width: 100%;
     height: 556px;
+}
+
+.picture-speaker {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.webinar-right-side {
+    padding-top: 22%;
 }
 
 /* Timeline */
