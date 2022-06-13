@@ -246,3 +246,11 @@ footer .container div {margin-right: 5%;}
 }
 
 .modal-show {display: block !important;}
+
+#video {
+    display: none;
+}
+
+#timelines {
+    display: none;
+}
